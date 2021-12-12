@@ -1,0 +1,162 @@
+
+* {
+    font-family: "Source Sans Pro","Calibre","Inter","San Francisco","SF Pro Text",system-ui,sans-serif;
+}
+
+:root {
+    --greyblack: #26292B;
+    --aqua:#08D9D6;
+    --greywhite: #909096;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+ 
+   
+.logo {
+    color: var(--aqua);
+    display: flex;
+    font-size: 50px;
+
+    
+}
+
+  .container1 {
+      padding:20px;
+      top: 0;
+      background-color: solid var(--greyblack);
+      border-bottom: 2px solid #404040;
+      display:flex;
+      flex-direction: column;
+      text-align:right;
+      font-size:20px; 
+  }
+
+  .container1 ul li a {
+      display:flex;
+      flex-direction: column;
+      color: white;
+      text-decoration:none;
+      font-size: 1.6rem;
+
+}
+
+.container1 ul li a:hover {
+    color: var(--aqua)
+}
+
+  }
+#main-menu {
+    color: #08D9D6;
+    display:flex;
+
+}
+  
+  li {
+    display:flex;
+    flex-direction:column;
+     }
+
+
+body {
+    background-color: #26292B;
+    color:azure
+}
+
+h1 {
+    text-align: left
+}
+span {
+    color:var(--aqua);
+}
+
+#avatar {
+    border-radius: 20%;
+    border: 5px solid #404040;
+    height:310px;
+    width: 240px;
+}
+
+
+
+
+.Hi {
+    font-size:120px;
+}
+
+.Ash {
+    font-size: 80px;
+}
+
+.mypassion {
+    font-size:40px;
+    font-family: ;
+}
+
+/* break here */
+
+
+
+
+
+#contact-me {
+   text-align: center;
+   color: var(--aqua);
+   font-size: 50px;
+
+ }
+
+form {
+   max-width: 600px;
+   text-align: center;
+   margin: 20px auto;
+
+
+}
+input, textarea {
+     border:0; outline:0;
+     padding: 1em;
+     border-radius:8px;
+     color: white;
+     background-color: var(--greyblack);
+     display: block;
+     width: 100%;
+     margin-top: 1em;
+     resize: none;
+     box-shadow: rgba(73, 72, 72, 0.219);
+     border-bottom: 2px solid var(--aqua);
+    }
+
+
+  
+  #input-submit {
+     color: var(--aqua);
+     cursor: pointer;
+     width:50%;
+     border: solid 0.5px var(--aqua)
+  }
+
+  #input-submit:hover {
+      background-color: var(--aqua);
+      color: var(--greyblack);
+  }
+
+
+  
+  textarea {
+      height: 126px;
+
+.half {
+  float: left;
+  width: 48%;
+  margin-bottom: 1em;
+}
+
+.right { width: 50%; }
+
+.left {
+     margin-right: 2%; 
+}
+
+
